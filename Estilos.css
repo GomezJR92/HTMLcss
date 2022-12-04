@@ -1,0 +1,129 @@
+.text {
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke:1px rgb(10, 10, 10);
+    color:rgb(236, 242, 247);
+    font-family: 'Fredoka One', cursive;
+}
+
+body {
+    background: rgb(9, 60, 77);
+
+}
+p {
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    -webkit-text-stroke:1px rgb(216, 210, 205);
+    color: rgb(17, 8, 1);
+}
+.img1{
+    
+    width:560px; 
+    height:315px;
+}
+h2 {
+   
+    background-color: #4370ec;
+    
+    width: fit-content;
+}
+h3 {
+    -webkit-text-stroke:1px rgb(10, 10, 10);
+    color: #6bd2f1;
+    font-family: 'Fredoka One', cursive;
+    font-size: xx-large;
+    text-align: left;
+    margin: 5px;
+}
+
+.ListaStyle1{
+    font-size: x-large;
+    display: inline-block;
+    text-size-adjust: 30px;
+    background-color: rgb(92, 170, 238);
+    
+}
+.videoImagen{
+   text-align: center;
+}
+#uno{
+    color: #1eec4b;
+}
+#dos{
+  color: #bc1eec;
+}
+nav {
+    display: flex;
+  
+    justify-content: center;
+    
+    
+  
+}
+.link {
+    text-align: center;
+    width: 90px;
+    height: auto;
+    
+    font-size: x-large;
+    color:rgb(236, 242, 247);
+    outline: none;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+.link:hover{
+    -webkit-text-stroke:0,5px rgb(10, 10, 10);
+    color: rgb(145, 121, 250);
+    text-shadow: #f4f0f5;
+}
+
+
+.imagenprincipal{
+display: flex;
+justify-content: center;
+
+}
+.espacio{
+   height: max-content;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.cuadro{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(18, 91, 116);
+    width:auto;
+    
+    
+}
+.certis{
+    display:flex;
+    justify-content: center;
+     
+}
+.certisImg{
+    margin: 20px; 
+    border-radius: 5px;
+    border:3px solid rgb(10, 10, 10);
+}
+.candidatoImg{
+   width: 400px;
+   height: auto;
+   text-align: right;
+   margin: 20px;
+   border:3px solid rgb(10, 10, 10);
+}
+.contenedor{
+    display:flex;
+}
+.logitos{
+   
+    align-items: center;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+}
