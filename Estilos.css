@@ -135,10 +135,30 @@ justify-content: center;
     height: auto;
     
 }
-.logitos{
-    align-items: center;
-    margin: 20px;
-    width: 80px;
-    height: 80px;
+
+
+@media screen and (max-width:480px){
+
+.cuadro{
+    width: auto;
+}
+.contenedor, .candidatoImg, .cuadro, .certis{
+    align-items: stretch;
+    flex-direction: column;
+    
+}
+
+.candidatoImg2, .candidatoImg{
+
+    width: 300px;
+    height: auto;
+}
+
+nav{
+
+    display: flex;
+    flex-direction: column;
+}
+    
 }
 
